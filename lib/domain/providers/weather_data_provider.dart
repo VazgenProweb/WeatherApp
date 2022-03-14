@@ -61,6 +61,9 @@ class WeatherDataProvider extends ChangeNotifier {
         if (i == 0) {
           _date.add('Сегодня');
         } else {
+
+
+          
           var timeNum = (_daily[i].dt ?? 0) * 1000;
           var itemDate = DateTime.fromMillisecondsSinceEpoch(timeNum);
           _date.add(capitalize(DateFormat('EEEE', 'ru').format(itemDate)));
