@@ -25,6 +25,16 @@ class WeatherApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: 'Roboto',
         ),
+        
+        
+        
+        
+        
+        
+        
+        
+        
+//         проверка
         routes: AppNavigator.routes,
         initialRoute: AppNavigator.initionalRoute,
         onGenerateRoute: AppNavigator.onGenerateroute,
